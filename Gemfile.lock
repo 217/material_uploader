@@ -16,10 +16,20 @@ GEM
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
     builder (3.2.2)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.4)
+      climate_control (>= 0.0.3, < 1.0)
     i18n (0.6.11)
     json (1.8.1)
+    mime-types (2.4.3)
     minitest (5.4.2)
     mysql2 (0.3.16)
+    paperclip (4.2.0)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (~> 0.5.3)
+      mime-types
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -42,6 +52,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   mysql2
+  paperclip (~> 4.2)
   rake
   sinatra
   sinatra-activerecord
