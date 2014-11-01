@@ -1,4 +1,4 @@
 class GameObject < ActiveRecord::Glue
-  include Paperclip::Glue
+  has_many :game_object_versions
 
 end
